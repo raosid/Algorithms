@@ -11,7 +11,7 @@ public class WeightedQuickUnion {
     private int[] size;
 
     //Constructor. Initializes the array.
-    public QuickUnion(int N) {
+    public WeightedQuickUnion(int N) {
         ids = new int[N];
         size = new int[N];
         for (int i = 0; i < N; i++) {
